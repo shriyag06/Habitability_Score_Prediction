@@ -1,9 +1,9 @@
 import streamlit as st
 import numpy as np
 import pickle
-from sklearn.preprocessing import RobustScaler
-from scipy.stats import boxcox
-from sklearn.ensemble import RandomForestRegressor
+#from sklearn.preprocessing import RobustScaler
+#from scipy.stats import boxcox
+#from sklearn.ensemble import RandomForestRegressor
 
 scalar = pickle.load(open('/content/drive/MyDrive/scaler.pickle','rb'))
 best_model = pickle.load(open('/content/drive/MyDrive/model.pickle','rb'))
