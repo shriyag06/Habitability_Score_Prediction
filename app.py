@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
-pip install sklearn
+
 from sklearn.preprocessing import StandardScaler
 
 scalar = pickle.load(open('scaler.pickle','rb'))
