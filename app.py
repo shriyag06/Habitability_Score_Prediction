@@ -4,6 +4,8 @@ import pickle
 
 from sklearn.preprocessing import StandardScaler
 
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout
 scalar = pickle.load(open('scaler.pickle','rb'))
 best_model = pickle.load(open('model.pickle','rb'))
 
