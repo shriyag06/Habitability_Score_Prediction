@@ -1,10 +1,11 @@
 import streamlit as st
 import numpy as np
 import pickle
+pip install sklearn
 from sklearn.preprocessing import StandardScaler
 
 scalar = pickle.load(open('scaler.pickle','rb'))
-best_model = pickle.load(open('/content/drive/MyDrive/model.pickle','rb'))
+best_model = pickle.load(open('model.pickle','rb'))
 
 st.title('Get a Home: Habitability Score Prediction (0 - 100)')
 
