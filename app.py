@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
-
+from sklearn.preprocessing import StandardScaler
 
 scalar = pickle.load(open('scaler.pickle','rb'))
 best_model = pickle.load(open('/content/drive/MyDrive/model.pickle','rb'))
