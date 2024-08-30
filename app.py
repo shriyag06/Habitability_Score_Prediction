@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
-
+import distutils as _distutils
 from sklearn.preprocessing import StandardScaler
 
 from tensorflow.keras.models import Sequential
