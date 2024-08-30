@@ -13,7 +13,7 @@ st.title('Get a Home: Habitability Score Prediction (0 - 100)')
 
 Power_Backup =st.selectbox("Does the property have a Power Backup",["Yes","No"])
 Property_Area = st.number_input("What's the area of the property in square feets?",1,15000)
-NR = st.number_input("On a scale of 1 (Low) to 5 (High), how would you rate the Neighborhood overall?", min_value=1.00, max_value=5.00, step=0.01, format="%.2f")
+NR = st.number_input("On a scale of 1 (Low) to 5 (High), how would you rate the Neighborhood overall?", min_value=0.00, max_value=5.00, step=0.01, format="%.2f")
 TDS = st.number_input("What is the Traffic Density score?", min_value=1.00, max_value=10.00, step=0.01, format="%.2f")
 Furnishing = st.selectbox("What's the furnishing category for the property?",["Fully Furnished","Semi_Furnished","Unfurnished","Not Known"])
 Crime_Rate  = st.selectbox("How would you categorize the Crime rate in the neighborhood?",["Well below average",
